@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">门神</string>
+
+    <string name="menu_title_settings">设置</string>
+    <string name="menu_title_about">关于</string>
+
+    <string name="snack_info_saved">设置已保存</string>
+    <string name="snack_info_no_change">没有任何改动</string>
+
+    <string name="dialog_title_warning">警告</string>
+    <string name="dialog_content_config_changed">当前配置已经改变，您确定要舍弃吗？</string>
+    <string name="toast_info_config_not_saved">配置未保存！</string>
+
+    <string name="dialog_content_request_permission">我们需要应用使用情况查看权限才能工作，请授予我们。</string>
+    <string name="toast_info_request_permission_failed">门神将不能工作，因为我们没有关键的权限。</string>
+
+    <string name="dialog_action_yes">是</string>
+    <string name="dialog_action_no">否</string>
+
+    <string name="lock_enroll_btn_cancel">取消</string>
+
+    <string name="pattern_lock_enroll_step1_info">请绘制您的图案</string>
+    <string name="pattern_lock_enroll_step2_info">请再次绘制您的图案</string>
+
+    <string name="fragment_pattern_view_title">请绘制您的图案</string>
+    <string name="fragment_pattern_view_fingerprint">指纹也可解锁</string>
+    <string name="fragment_pattern_view_fingerprint_no_enroll">暂无指纹注册，点击这里注册</string>
+    <string name="fragment_pattern_view_pattern_error">图案错误</string>
+
+    <string name="fragment_pin_lock_view_title">请输入密码</string>
+    <string name="fragment_pin_lock_view_pin_error">PIN码错误</string>
+
+    <string name="fingerprint_auth_failed">指纹认证失败</string>
+    <string name="fingerprint_auth_error">指纹认证错误</string>
+    <string name="pattern_lock_enroll_info_mismatch">两次输入不匹配，请重试！</string>
+
+    <string name="pin_lock_enroll_step1_info">输入PIN码</string>
+    <string name="pin_lock_enroll_step2_info">再次输入</string>
+    <string name="pin_lock_enroll_info_mismatch">两次密码不匹配，请重试！</string>
+    <string name="pin_lock_enroll_toast_empty">密码不能是空</string>
+
+    <string name="settings_lock_type_title">设置锁屏方式</string>
+    <string name="settings_lock_type_pattern">图案</string>
+    <string name="settings_lock_type_pin">PIN码</string>
+    <string name="settings_trust_wifi">设置信任的wifi</string>
+    <string name="settings_trust_wifi_select_all">全选</string>
+    <string name="settings_trust_wifi_unselect_all">取消</string>
+    <string name="settings_trust_wifi_select_reverse">反选</string>
+    <string name="settings_trust_wifi_connected">已连接</string>
+    <string name="settings_trust_wifi_not_init_info">WIFI已关闭，请打开</string>
+    <string name="settings_intru_rec_title">入侵记录设置</string>
+    <string name="settings_intru_rec_attempt_times_title">失败解锁次数</string>
+    <string name="settings_intru_rec_enabled_title">入侵记录</string>
+    <string name="settings_intru_rec_enabled_subtext">当解锁失败，抓取一张使用者的照片</string>
+    <string name="settings_intru_rec_detail_title">入侵记录明细</string>
+    <string name="settings_intru_rec_detail_item_title">这个家伙在 %1$s 尝试使用 %2$s</string>
+    <string name="settings_intru_rec_detail_dialog_title">确定要删除？</string>
+
+    <string name="first_start_info">这是第一次运行，请设置锁屏方式。</string>
+
+    <string name="no_lock_type_enrolled_warning">你必须指定一个解锁类型！</string>
+
+    <string name="service_foreground_notification_title">门神正在保护您的应用。</string>
+
+    <string name="pattern_more_settings_anim_title">选择一个动画效果</string>
+    <string name="pattern_more_settings_anim_scale">缩放</string>
+    <string name="pattern_more_settings_anim_trans">移动</string>
+
+    <string name="app_list_activity_protected_title">已保护的应用</string>
+    <string name="app_list_activity_unprotected_title">未保护的应用</string>
+    <string name="author_email">createchance@163.com</string>
+    <string name="author_name">CreateChance</string>
+</resources>

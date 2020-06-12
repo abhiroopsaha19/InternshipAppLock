@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_white_48dp"
+            android:title="@string/menu_title_settings" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:checkable="false"
+            android:enabled="false"
+            android:icon="@drawable/ic_info_white_48dp"
+            android:title="@string/menu_title_about"
+            android:visible="false" />
+
+    </group>
+
+
+
+</menu>
